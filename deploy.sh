@@ -1,2 +1,2 @@
 npm run build
-aws s3 cp build s3://angiemcleod.com/ --recursive
+aws s3 sync build s3://angiemcleod.com/ 
